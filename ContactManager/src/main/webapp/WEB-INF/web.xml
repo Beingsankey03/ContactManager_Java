@@ -1,0 +1,14 @@
+<element>
+
+<web-app>
+    <servlet>
+        <servlet-name>ContactServlet</servlet-name>
+        <servlet-class>com.contactmanager.ContactServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContactServlet</servlet-name>
+        <url-pattern>/addContact</url-pattern>
+    </servlet-mapping>
+</web-app>
+</element>
